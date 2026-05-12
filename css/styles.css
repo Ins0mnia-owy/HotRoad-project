@@ -1,0 +1,18 @@
+
+@import 'basic/_reset.css';
+@import 'basic/_fonts.css';
+@import 'basic/_vars.css';
+@import 'basic/_global.css';
+
+@import 'components/_btn.css';
+@import 'components/_header.css';
+@import 'components/_footer.css';
+
+@import 'home/_main-slider.css';
+@import 'home/_hits.css';
+@import 'home/_category.css';
+@import 'home/_about.css';
+@import 'home/_more-about.css';
+@import 'home/_news.css';
+@import 'home/_products.css';
+@import 'home/_about-product.css';
