@@ -1,1 +1,23 @@
-/
+.about__inner {
+    display: flex;
+    justify-content: center;
+    gap: 63px;
+}
+
+.about__content {
+    max-width: 608px;
+}
+
+.about__imgcont {
+    overflow: hidden;
+    max-width: 495px;
+    max-height: 304px;
+    border-radius: 20px;
+    background-color: var(--light-green);
+}
+
+.about__img {
+    max-width: 495px;
+    margin-top: -100px;
+    opacity: 0.7;
+}
