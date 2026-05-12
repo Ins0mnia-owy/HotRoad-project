@@ -1,3 +1,26 @@
 body {
-    background-color: #131417;
+    background-color: var(--main-black);
+    color: var(--main-white);
+    font-family: var(--font-family);
+}
+
+.container {
+    max-width: 1400px;
+    padding: 20px;
+    margin: auto;
+}
+.container--green {
+    background-color: var(--dark-green);
+}
+
+.big-orange-text {
+    color: var(--orange);
+    font-size: 32px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 10%;
+}
+
+a, button, .btn {
+    cursor: pointer;
 }

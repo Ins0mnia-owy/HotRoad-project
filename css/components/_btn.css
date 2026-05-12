@@ -1,1 +1,18 @@
-/
+
+.btn {
+    background-color: var(--light-green);
+    color: var(--white-gray);
+    width: fit-content;
+    padding: 8px 25px;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+
+    &:hover {
+        background-color: var(--dark-ochre);
+    }
+}
+
+.btn--chosen {
+    background-color: var(--dark-ochre);
+    color: var(--white-yellow);
+}
