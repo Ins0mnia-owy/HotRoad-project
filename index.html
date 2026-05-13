@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Skyroad</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
     <link rel="stylesheet" href="css/styles.css">
     <link rel="icon" href="../../img/arrow-icon.png" type="image/png">
 </head>
@@ -66,15 +67,46 @@
         <section class="main-slider">
             <div class="container">
                 <div class="main-slider__inner">
-                    <button class="main-slider__btn">
-
-                    </button>
+                    
                     <div class="main-slider__content">
+                        <!-- Slider main container -->
+                        <div class="swiper-container">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide">
+                                <div class="main-slider__card">
+                                    <img src="../../img/image 3.png" class="main-slider__img">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="main-slider__card">
+                                    <img src="../../img/5083ae87eaed85034ded6dd16028f6c4.jpg" class="main-slider__img">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="main-slider__card">
+                                    <img src="../../img/5083ae87eaed85034ded6dd16028f6c4.jpg" class="main-slider__img">
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <!-- If we need pagination -->
+                        <div class="swiper-pagination">
+                        </div>
 
+                        <!-- If we need navigation buttons -->
+                        <div class="main-slider__btn-prev">
+                            <button class="main-slider__btn main-slider__btn--left">
+                                <img class="main-slider__btn-arrow" src="../../img/left-arrow-black.svg">
+                            </button></div>
+                        <div class="main-slider__btn-next">
+                            <button class="main-slider__btn main-slider__btn--right">
+                                <img class="main-slider__btn-arrow" src="../../img/right-arrow-black.svg">
+                            </button>
+                        </div>
+                        </div>
                     </div>
-                    <button class="main-slider__btn">
-                        
-                    </button>
                 </div>
             </div>
         </section>
@@ -83,22 +115,22 @@
             <div class="container container--green">
                 <div class="category__inner">
                     <ul class="category__links">
-                        <li class="btn category__link">
+                        <li class="btn category__link category__link--one">
                             <a href="#" target="_blank">
                                 Мотоцикл
                             </a>
                         </li>
-                        <li class="btn category__link">
+                        <li class="btn category__link category__link--two">
                             <a href="#" target="_blank">
                                 Экипировка
                             </a>
                         </li>
-                        <li class="btn category__link">
+                        <li class="btn category__link category__link--three">
                             <a href="#" target="_blank">
                                 Запчасти
                             </a>
                         </li>
-                        <li class="btn category__link">
+                        <li class="btn category__link category__link--four">
                             <a href="#" target="_blank">
                                 Аксессуары
                             </a>
@@ -117,23 +149,59 @@
                         </h2>
                     </div>
                     <div class="hits__slider">
+                        <!-- Slider main container -->
+                        <div class="swiper-container">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide">
+                                <div class="main-slider__card">
+                                    <img src="../../img/image 3.png" class="main-slider__img">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="main-slider__card">
+                                    <img src="../../img/5083ae87eaed85034ded6dd16028f6c4.jpg" class="main-slider__img">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="main-slider__card">
+                                    <img src="../../img/5083ae87eaed85034ded6dd16028f6c4.jpg" class="main-slider__img">
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <!-- If we need pagination -->
+                        <div class="swiper-pagination">
+                        </div>
 
+                        <!-- If we need navigation buttons -->
+                        <div class="main-slider__btn-prev">
+                            <button class="main-slider__btn main-slider__btn--left">
+                                <img class="main-slider__btn-arrow" src="../../img/left-arrow-black.svg">
+                            </button></div>
+                        <div class="main-slider__btn-next">
+                            <button class="main-slider__btn main-slider__btn--right">
+                                <img class="main-slider__btn-arrow" src="../../img/right-arrow-black.svg">
+                            </button>
+                        </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
 
-        <div class="about">
+        <section class="about">
             <div class="container container--green">
                 <div class="about__inner">
                     <div class="about__content">
                         <h2>
                             Интернет-магазин Skyroad
                         </h2>
-                        <p>
-                            Информация о компании много информации о компании на несколько строк информации о компании и немного еще
+                        <p class="p">
+                            Информация о компании много информации о компании на несколько строк информации о компании и немного еще Curabitur gravida, metus non vehicula elementum, ex leo condimentum lacus, quis mollis augue lectus nec urna. Fusce mattis elit sit amet velit blandit feugiat. 
                         </p>
-                        <a class="about__btn btn">
+                        <a class="about__btn btn btn--green">
                             Подробнее
                         </a>
                     </div>
@@ -150,18 +218,24 @@
         <div class="container">
             <div class="footer__inner">
                 <div class="footer__info">
-
+                    <p class="footer__info-logo">
+                        Skyroad
+                    </p>
+                    <p class="footer__info-text">
+                        © 2026 Интернет-магазин мототехники.
+                    </p>
                 </div>
                 <div class="footer__task">
-                    <p class="footer__tast-text">
-                        Отчет:
-                    </p>
-                    <a class="footer__task-link">
-                        ссылка на отчет.
+                    <a class="footer__link">
+                        отчёт
                     </a>
                 </div>
+                <div class="footer__logo"> лого <img class="footer__logo"></div>
             </div>
         </div>
     </footer>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="js/index.js"></script>
 </body>
 </html>

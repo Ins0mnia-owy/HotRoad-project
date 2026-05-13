@@ -1,1 +1,19 @@
-/
+
+.footer__inner {
+    height: 180px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    color: #b4a082;
+    font-size: 16px;
+}
+
+.footer__link {
+    color: #cfc0a9;
+    transition: color 0.3s;
+    letter-spacing: 10%;
+
+    &:hover {
+        color: antiquewhite;
+    }
+}

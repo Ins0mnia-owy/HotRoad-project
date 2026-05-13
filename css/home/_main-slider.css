@@ -1,1 +1,47 @@
-/
+
+.main-slider__inner {
+    position: relative;
+}
+
+.main-slider__card {
+    max-width: 806px;
+    max-height: 390px;
+    overflow: hidden;
+    justify-self: center;
+}
+
+.main-slider__img {
+    max-height: 650px;
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+
+.main-slider__btn {
+    width: 60px;
+    height: 60px;
+    background-color: var(--ochre);
+    border-radius: 100%;
+    position: absolute;
+    top: 40%;
+    z-index: 20;
+    transition: transform 0.3s, background-color 0.3s;
+
+    &:hover {
+        transform: scale(1.08);
+        background-color: #ce9a47;
+    }
+}
+
+.main-slider__btn-arrow {
+    scale: 0.7;
+}
+
+.main-slider__btn--left {
+    left: 80px;
+}
+
+
+.main-slider__btn--right {
+    right: 80px;
+}
