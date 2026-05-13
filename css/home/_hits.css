@@ -2,3 +2,44 @@
 .hits__inner {
     position: relative;
 }
+
+.hits__card {
+    max-width: 806px;
+    max-height: 390px;
+    overflow: hidden;
+    justify-self: center;
+}
+
+.hits__img {
+    max-height: 650px;
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+
+.hits__btn {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    position: absolute;
+    top: 45%;
+    z-index: 20;
+    transition: transform 0.3s;
+
+    &:hover {
+        transform: scale(1.08);
+    }
+}
+
+.hits__btn-arrow {
+    scale: 0.7;
+}
+
+.hits__btn--left {
+    left: 80px;
+}
+
+
+.hits__btn--right {
+    right: 80px;
+}

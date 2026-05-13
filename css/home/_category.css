@@ -1,4 +1,12 @@
 
+
+.category__inner {
+    display: grid;
+}
+
+
+
+
 .category__links {
     display: flex;
     gap: 25px;

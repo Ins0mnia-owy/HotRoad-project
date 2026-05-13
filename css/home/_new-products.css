@@ -1,0 +1,39 @@
+.new-products__inner {
+    display: grid;
+    
+    gap: 30px;
+}
+
+.new-products__card {
+    background-color: var(--dark-green);
+    max-width: 320px;
+    padding: 25px 30px;
+    border-radius: 20px;
+    display: grid;
+    gap: 20px;
+}
+
+.new-products__orange-text {
+    color: var(--orange);
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 10%;
+    line-height: 25px;
+}
+
+.new-products__price {
+    color: var(--main-white);
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 10%;
+}
+
+.new-products__card-img {
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.new-products__btn {
+    padding: 10px 50px;
+    justify-self: center;
+}
