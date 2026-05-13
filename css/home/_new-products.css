@@ -1,6 +1,6 @@
-.new-products__inner {
+.new-products__content {
     display: grid;
-    
+
     gap: 30px;
 }
 
