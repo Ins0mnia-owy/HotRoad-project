@@ -1,5 +1,7 @@
 body {
     background-color: var(--main-black);
+    background-image: linear-gradient(to bottom, #080808, var(--main-black));
+    background-attachment: fixed;
     color: var(--main-white);
     font-family: var(--font-family);
 
@@ -19,6 +21,7 @@ body {
 }
 .container--green {
     background-color: var(--dark-green);
+    background-attachment: fixed;
 }
 
 h2 {
