@@ -17,12 +17,17 @@ body {
     margin: auto;
     margin-bottom: 20px;
     overflow: hidden;
-
 }
+.container-less-pedding {
+    padding: 0px;
+}
+
 .container--green {
     background-color: var(--dark-green);
     background-attachment: fixed;
+    background-image: linear-gradient(to right, var(--main-black), var(--dark-green), #202922, var(--main-black));
 }
+
 
 h2 {
     color: var(--orange);

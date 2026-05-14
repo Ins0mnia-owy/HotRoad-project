@@ -17,3 +17,8 @@
         color: antiquewhite;
     }
 }
+
+.footer__logo {
+    width: 200px;
+    margin-bottom: -10px;
+}

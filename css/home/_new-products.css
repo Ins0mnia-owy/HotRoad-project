@@ -1,12 +1,13 @@
 .new-items__content {
     display: flex;
     flex-wrap: wrap;
-    background-color: aqua;
 }
 
 .new-items__card {
     margin: 20px;
     background-color: var(--dark-green);
+    background-attachment: scroll;
+    background-image: linear-gradient(to bottom, var(--light-green), #202922);
     max-width: 250px;
     padding: 15px 20px;
     border-radius: 20px;

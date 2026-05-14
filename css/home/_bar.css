@@ -2,13 +2,9 @@
 .bar__inner {
     display: flex;
     justify-content: center;
-}
-
-.bar__content {
-
+    height: 100px;
 }
 
 .bar__img {
-
-    
+    margin-top: -150px
 }

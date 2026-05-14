@@ -1,0 +1,23 @@
+
+.main-img__inner {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.158);
+}
+
+.main-img {
+    margin-top: -20px;
+    background-image: url(../../img/i\ \(4\).webp);
+    background-size: 2000px;
+    background-position: 0px -600px;
+
+}
+
+
+
+.main-img__logo {
+    width: 90%;
+}
+
+
+

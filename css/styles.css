@@ -8,13 +8,17 @@
 @import 'components/_header.css';
 @import 'components/_footer.css';
 
+/* Главная */
+
 @import 'home/_main-slider.css';
 @import 'home/_hits.css';
 @import 'home/_category.css';
 @import 'home/_about.css';
-@import 'home/_new-products.css';
+@import 'home/_new-products.css'; 
+@import 'home/_bar.css';
+@import 'home/_main-img.css';
+
 @import 'home/_more-about.css';
 @import 'home/_news.css';
 @import 'home/_products.css';
 @import 'home/_about-product.css';
-@import 'home/_bar.css';

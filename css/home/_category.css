@@ -27,7 +27,7 @@
 
 .category__link--one {
     background-image: url(../../img/Frame\ 11\ \(1\).png);
-    transition: background-image 0.3s, color 0.3s, box-shadow 0.3s;
+    transition: background-image 0.3s, color 0.3s, box-shadow 0.3s, transform 0.3s;
 
     &:hover {
         background-image: url(../../img/Frame\ 11\ \(2\).png);
@@ -35,7 +35,7 @@
 }
 .category__link--two {
     background-image: url(../../img/Frame\ 13.png);
-    transition: background-image 0.3s, color 0.3s, box-shadow 0.3s;
+    transition: background-image 0.3s, color 0.3s, box-shadow 0.3s, transform 0.3s;
 
     &:hover {
         background-image: url(../../img/Frame\ 13\ \(1\).png);
@@ -43,7 +43,7 @@
 }
 .category__link--three {
     background-image: url(../../img/Frame\ 14.png);
-    transition: background-image 0.3s, color 0.3s, box-shadow 0.3s;
+    transition: background-image 0.3s, color 0.3s, box-shadow 0.3s, transform 0.3s;
 
     &:hover {
         background-image: url(../../img/Frame\ 14\ \(1\).png);
@@ -51,7 +51,7 @@
 }
 .category__link--four {
     background-image: url(../../img/Frame\ 15.png);
-    transition: background-image 0.3s, color 0.3s, box-shadow 0.3s;
+    transition: background-image 0.3s, color 0.3s, box-shadow 0.3s, transform 0.3s;
 
     &:hover {
         background-image: url(../../img/Frame\ 15\ \(1\).png);

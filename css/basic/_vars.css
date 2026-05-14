@@ -1,4 +1,4 @@
-
+/* основные */
 :root {
     --main-white: #ffffff;
     --white-gray: #D7CEC2;
@@ -7,8 +7,9 @@
     --orange: #ff871f;
     --main-black: #131417;
     --dark-green: #1F2621;
-    --light-green: #455744;
-    --dark-ochre: #7B5F2D;
+    --green: #2f3f27;
+    --light-green: #43553b;
+    --dark-ochre: #a56b28;
     --ochre: #BA8C42;
     --light-ochre: #F4C88C;
     --font-family: 'Jost', sans-serif;
