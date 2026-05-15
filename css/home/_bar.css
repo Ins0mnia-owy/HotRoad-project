@@ -8,3 +8,16 @@
 .bar__img {
     margin-top: -150px
 }
+
+/* bar-two */
+
+
+.bar-two__inner {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+}
+
+.bar-two__img {
+    margin-top: -60px
+}

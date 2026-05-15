@@ -11,6 +11,17 @@ body {
     }
 }
 
+::-webkit-scrollbar {
+    background-color: #000000;
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(to bottom, var(--main-black), var(--dark-green), var(--light-green), var(--dark-green), var(--main-black));
+    border-radius: 10px;
+}
+
+
 .container {
     max-width: 1200px;
     padding: 20px;

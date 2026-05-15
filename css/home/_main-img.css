@@ -3,6 +3,7 @@
     display: flex;
     justify-content: center;
     background-color: rgba(0, 0, 0, 0.158);
+    background-image: linear-gradient(to bottom, #00000000, #00000000, #00000062);
 }
 
 .main-img {
@@ -12,7 +13,6 @@
     background-position: 0px -600px;
 
 }
-
 
 
 .main-img__logo {
