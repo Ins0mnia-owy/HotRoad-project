@@ -2,12 +2,14 @@
 
 .category__inner {
     display: grid;
+    justify-content: center;
 }
 
 
 
 
 .category__links {
+    max-width: 1150px;
     display: flex;
     gap: 25px;
     text-transform: uppercase;
@@ -24,6 +26,7 @@
     justify-content: center;
     align-items: center;
 }
+
 
 .category__link--one {
     background-image: url(../../img/Frame\ 11\ \(1\).png);

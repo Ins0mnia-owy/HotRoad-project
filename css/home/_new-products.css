@@ -1,9 +1,9 @@
-.new-items__content {
+.items__content {
     display: flex;
     flex-wrap: wrap;
 }
 
-.new-items__card {
+.items__card {
     margin: 20px;
     background-color: var(--dark-green);
     background-attachment: scroll;
@@ -16,7 +16,7 @@
     justify-content: center;
 }
 
-.new-items__name {
+.items__name {
     color: var(--orange);
     font-size: 20px;
     font-weight: 400;
@@ -24,20 +24,20 @@
     line-height: 25px;
 }
 
-.new-items__price {
+.items__price {
     color: var(--main-white);
     font-size: 20px;
     font-weight: 400;
     letter-spacing: 10%;
 }
 
-.new-items__img {
+.items__img {
     scale: 0.99;
     border-radius: 15px;
     overflow: hidden;
 }
 
-.new-items__btn {
+.items__btn {
     padding: 10px 50px;
     justify-self: center;
 }

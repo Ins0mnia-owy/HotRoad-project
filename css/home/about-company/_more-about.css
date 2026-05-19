@@ -1,0 +1,20 @@
+
+.more-about__card {
+    display: flex;
+    justify-self: center;
+    padding: 30px;
+    border-radius: 15px;
+    background-color: var(--dark-green);
+    max-width: 800px;
+    gap: 30px;
+}
+
+.more-about__content {
+    max-width: 55%;
+    letter-spacing: 3%;
+}
+
+.more-about__img-inner {
+    border-radius: 10px;
+    overflow: hidden;
+}
