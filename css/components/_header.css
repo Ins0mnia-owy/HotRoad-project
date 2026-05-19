@@ -17,11 +17,15 @@ header {
 .header__navigation {
     display: flex;
     justify-content: space-between;
+    row-gap: 10px;
+    flex-wrap: wrap;
 }
 
 .header__links {
     display: flex;
     gap: 20px;
+    row-gap: 10px;
+    flex-wrap: wrap;
     text-transform: uppercase;
     font-size: 15px;
     font-weight: 400;
@@ -106,3 +110,4 @@ header {
     width: 30px;
     height: 30px;
 }
+
