@@ -45,3 +45,21 @@
 .main-slider__btn--right {
     right: 80px;
 }
+
+
+@media (max-width: 902px) {
+    .main-slider__card {
+        max-width: 600px;
+        max-height: 290px;
+    }
+}
+
+@media (max-width: 768px) {
+    .main-slider__card {
+        max-width: 500px;
+        max-height: 240px;
+    }
+    .main-slider__btn {
+        display: none;
+    }
+}

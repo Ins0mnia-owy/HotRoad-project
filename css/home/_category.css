@@ -13,10 +13,6 @@
     display: flex;
     gap: 25px;
     flex-wrap: wrap;
-    text-transform: uppercase;
-    font-size: 22px;
-    font-weight: 400;
-    letter-spacing: 10%;
     
 }
 
@@ -26,6 +22,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 10%;
+    background-position: -20px 0px;
 }
 
 
@@ -59,5 +60,25 @@
 
     &:hover {
         background-image: url(../../img/Frame\ 15\ \(1\).png);
+    }
+}
+
+
+@media (max-width: 902px) {
+    .category__link {
+        width: 125px;
+        height: 55px;
+        font-size: 19px;
+    }
+}
+
+@media (max-width: 768px) {
+    .category__link {
+        width: 110px;
+        height: 35px;
+        font-size: 17px;
+    }
+    .category__links {
+        gap: 10px;
     }
 }

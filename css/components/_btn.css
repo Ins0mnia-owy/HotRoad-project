@@ -5,13 +5,18 @@
     width: fit-content;
     padding: 8px 25px;
     border-radius: 10px;
-    transition: background-color 0.3s, color 0.3s, box-shadow 0.3s, transform 0.3s;
+    transition: background-color 0.3s, color 0.3s, box-shadow 0.3s, transform 0.3s, scale 0.2s;
 
     &:hover {
         background-color: var(--dark-ochre);
         color: var(--white-yellow);
         box-shadow: 3px 4px 10px rgba(0, 0, 0, 0.555);
         transform: scale(1.03);
+    }
+
+    &:active { 
+        background-color: #8a5a23;
+        scale: 0.96;
     }
 }
 

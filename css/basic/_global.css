@@ -70,9 +70,17 @@ a, button, .btn {
 }
 
 
+
 /* адаптив
 1200, 902, 768, 610, 468, 402 */
 
-@media (max-width: 1130px) {
-    
+
+
+@media (max-width: 902px) {
+    h2 {
+        font-size: 23px;
+    }
+    .container {
+        padding: 5px;
+    }
 }

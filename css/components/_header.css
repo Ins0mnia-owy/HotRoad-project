@@ -91,6 +91,11 @@ header {
     height: auto;
 }
 
+.header__right {
+    display: flex;
+    gap: 20px;
+}
+
 .header__basket {
     background-color: var(--ochre);
     width: 40px;
@@ -99,10 +104,15 @@ header {
     justify-content: center;
     align-items: center;
     border-radius: 5px;
-    transition: background-color 0.3s;
+    transition: background-color 0.2s, scale 0.2s;
 
     &:hover {
         background-color: #d69948;
+    }
+
+    &:active { 
+        background-color: rgb(180, 132, 69);
+        scale: 0.96;
     }
 }
 
@@ -111,3 +121,56 @@ header {
     height: 30px;
 }
 
+.header__menu {
+    background-color: #4e6640;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+
+    &:hover {
+        background-color: #64774b;
+    }
+
+    &:active { 
+        background-color: #506840;
+        scale: 0.96;
+    }
+
+    @media (min-width: 768px) {
+        display: none;
+    }
+}
+
+
+.header__menu-img {
+    width: 40px;
+    height: 35px;
+}
+
+
+
+@media (max-width: 768px) {
+    header {
+        top: 0px;
+    }
+
+    .header__search {
+        display: none;
+    }
+    .header__basket {
+        width: 60px;
+        height: 60px;
+    }
+    .header__basket-img {
+    width: 40px;
+    height: 40px;
+    }
+    .header__navigation {
+        display: none;
+    }
+
+}

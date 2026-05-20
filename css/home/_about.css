@@ -26,3 +26,17 @@
     margin-top: -100px;
     opacity: 0.7;
 }
+
+
+@media (max-width: 902px) {
+    .about__inner {
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 30px;
+        padding: 10px 0px;
+    }
+    .about__content {
+        justify-items: center;
+        gap: 10px;
+    }
+}

@@ -25,7 +25,6 @@
 }
 
 .hits__img {
-    
     display: flex;
     align-items: center;
 }
@@ -79,4 +78,13 @@
 
 .hits__btn--right {
     right: 20px;
+}
+
+
+
+@media (max-width: 902px) {
+    .hits__card {
+        max-width: 500px;
+        display: fl;
+    }
 }
