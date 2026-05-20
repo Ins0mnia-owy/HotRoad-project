@@ -1,29 +1,29 @@
 
-@import '../basic/_reset.css';
-@import '../basic/_fonts.css';
-@import '../basic/_vars.css';
-@import '../basic/_global.css';
+@import '../css/basic/_reset.css';
+@import '../css/basic/_fonts.css';
+@import '../css/basic/_vars.css';
+@import '../css/basic/_global.css';
 
-@import '../components/_btn.css';
-@import '../components/_header.css';
-@import '../components/_footer.css';
+@import '../css/components/_btn.css';
+@import '../css/components/_header.css';
+@import '../css/components/_footer.css';
 
 /* Главная */
 
-@import '../home/_main-slider.css';
-@import '../home/_hits.css';
-@import '../home/_category.css';
-@import '../home/_about.css';
-@import '../home/_items.css'; 
-@import '../home/_bar.css';
-@import '../home/_main-img.css';
+@import '../css/home/_main-slider.css';
+@import '../css/home/_hits.css';
+@import '../css/home/_category.css';
+@import '../css/home/_about.css';
+@import '../css/home/_items.css'; 
+@import '../css/home/_bar.css';
+@import '../css/home/_main-img.css';
 
-@import '../home/_menu-modal.css';
+@import '../css/home/_menu-modal.css';
 
 /* О компании */
-@import '../home/about-company/_more-about.css';
-@import '../home/about-company/_news.css';
+@import '../css/home/about-company/_more-about.css';
+@import '../css/home/about-company/_news.css';
 
 /* Товары */
-@import '../home/products/_about-product.css';
-@import '../home/products/_products.css';
+@import '../css/home/products/_about-product.css';
+@import '../css/home/products/_products.css';
