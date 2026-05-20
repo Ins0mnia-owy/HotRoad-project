@@ -4,7 +4,7 @@
     padding: 10px;
     width: 100%;
     position: fixed;
-    top: 12%;
+    top: 14.9%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 30;
@@ -59,14 +59,20 @@
     }
 }
 
+@media (min-width: 769px) {
+    .modal {
+        display: none;
+    }
+}
+
 @media (max-width: 530px) {
     .modal {
-        top: 14.1%;
+        top: 17.6%;
     }
 }
 
 @media (max-width: 390px) {
     .modal {
-        top: 16.3%;
+        top: 20.3%;
     }
 }
