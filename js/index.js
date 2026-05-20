@@ -26,16 +26,21 @@ new Swiper('.swiper-container--hits', {
     }
 });
 
-/* модальное окно 
+/* модальное окно */
 
-const btn = document.getElementById('menu-modalOpen');
+const btn = document.getElementById('modalOpen');
 const body = document.body;
-const modal = document.querySelector('menu-modal');
+const modal = document.querySelector('.modal');
+const modalCloseBtn = document.querySelector('.modal__btn');
 
 
-btn,addEventListener('click', function() {
+btn.addEventListener('click', function() {
     body.classList.add('active');
     modal.classList.add('active');
 });
 
-*/
+modalCloseBtn.addEventListener('click', function() {
+    body.classList.remove('active');
+    modal.classList.remove('active');
+});
+
