@@ -23,3 +23,12 @@
     width: 200px;
     margin-bottom: -10px;
 }
+
+@media (max-width: 768px) {
+    .footer__logo {
+        display: none;
+    }
+    .footer__inner {
+        justify-content: space-around;
+    }
+}

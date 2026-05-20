@@ -1,0 +1,27 @@
+/*
+.menu-modal {
+    margin: 20px;
+    padding: 10px;
+    width: 400px;
+    background-color: aquamarine;
+    position: fixed;
+    
+    z-index: 50;
+    opacity: 0;
+    visibility: visible;
+    pointer-events: none;
+    transition: opacity .4s, visibility .4s;
+}
+
+.menu-modal.active {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+
+.menu-modal__btn {
+    display: flex;
+    background-color: brown;
+}
+
+*/

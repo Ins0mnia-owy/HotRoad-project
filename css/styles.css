@@ -18,6 +18,8 @@
 @import 'home/_bar.css';
 @import 'home/_main-img.css';
 
+@import 'home/menu-modal.css';
+
 /* О компании */
 @import 'home/about-company/_more-about.css';
 @import 'home/about-company/_news.css';

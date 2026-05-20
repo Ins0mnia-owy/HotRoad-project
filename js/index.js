@@ -25,3 +25,17 @@ new Swiper('.swiper-container--hits', {
         nextEl: '.hits__btn-next',
     }
 });
+
+/* модальное окно 
+
+const btn = document.getElementById('menu-modalOpen');
+const body = document.body;
+const modal = document.querySelector('menu-modal');
+
+
+btn,addEventListener('click', function() {
+    body.classList.add('active');
+    modal.classList.add('active');
+});
+
+*/

@@ -5,11 +5,21 @@
 
 .hits__title {
     margin-bottom: 20px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
 }
 
+.hits__icon {
+    width: 25px;
+    height: 25px;
+    margin-top: -4px;
+}
+
+
 .hits__card {
-    width: 980px;
-    height: 340px;
+    max-width: 980px;
+    max-height: 340px;
     background-image: linear-gradient(to right, var(--main-black), var(--main-black), var(--dark-green), var(--dark-green), var(--main-black));
     overflow: hidden;
     justify-self: center;
@@ -22,6 +32,7 @@
     height: 400px;
     width: 450px;
     margin-left: 50px;
+    overflow: hidden;
 }
 
 .hits__img {
@@ -82,9 +93,35 @@
 
 
 
+
 @media (max-width: 902px) {
     .hits__card {
-        max-width: 500px;
-        display: fl;
+        background-image: linear-gradient(to bottom, var(--main-black), var(--main-black), var(--dark-green), var(--dark-green), var(--main-black));
+        max-width: 450px;
+        flex-wrap: wrap;
+        max-height: 830px;
+        padding: 15px 0px 40px;
+        justify-content: center;
     }
+    .hits__img-inner {
+        height: 200px;
+        width: 350px;
+        border-radius: 10px;
+        margin-left: 0px;
+    }
+    .hits__content {
+        justify-items: center;
+    }
+}
+
+@media (max-width: 610px) {
+    .hits__btn {
+        display: none;
+    }
+    .hits__icon {
+        width: 20px;
+        height: 20px;
+        margin-top: -4px;
+    }
+
 }

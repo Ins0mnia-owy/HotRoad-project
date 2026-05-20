@@ -145,6 +145,7 @@ header {
     }
 }
 
+/* модальное окно */
 
 .header__menu-img {
     width: 40px;
@@ -152,6 +153,8 @@ header {
 }
 
 
+
+/* адаптив */
 
 @media (max-width: 768px) {
     header {
