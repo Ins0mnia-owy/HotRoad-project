@@ -6,7 +6,7 @@
     <title>HotRoad - магазин мототехники с горячими ценами!</title>
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
     <link rel="stylesheet" href="../../css/styles.css">
-    <link rel="icon" href="../../img/arrow-icon.png" type="image/png">
+    <link rel="icon" href="../../img/icons/moto-icon.png" type="image/png">
 </head>
 <body>
     <header class="green-stripe container--green-gradient">
@@ -20,33 +20,77 @@
                                 <form action="#" class="header__form">
                                     <input class="header__input" type="text" placeholder="Поиск" name="search">
                                     <button>
-                                        <i class="header__search-btn"> <img class="header__search-img" src="img/icons/search-svgrepo-com.svg"> </i>
+                                        <i class="header__search-btn"> <img class="header__search-img" src="../../img/icons/search-svgrepo-com.svg"> </i>
                                     </button>
                                 </form>
                             </div>
                         </div>
-                        <a class="header__basket">
-                            <img class="header__basket-img" src="../../img/icons/cart.png">
-                        </a>
+                        <div class="header__right">
+                        
+                            <div class="modal container container--green-gradient">
+                                <div class="modal__navigation">
+                                    <a href="../../index.html" class="modal__link">
+                                        <p class="modal__text">
+                                            Главная
+                                        </p>
+                                    </a>
+                                    <a href="../about.html" class="modal__link">
+                                        <p class="modal__text">
+                                            О нас
+                                        </p>
+                                    </a>
+                                    <a href="../products.html" class="modal__link">
+                                        <p>
+                                            Товары
+                                        </p>
+                                    </a>
+                                    <a href="../stores.html" class="modal__link">
+                                        <p>
+                                            Магазины
+                                        </p>
+                                    </a>
+                                    <a href="../contacts.html" class="modal__link">
+                                        <p>
+                                            Контакты
+                                        </p>
+                                    </a>
+                                    <a href="../payment.html" class="modal__link">
+                                        <p>
+                                            Оплата&Доставка
+                                        </p>
+                                    </a>
+                                </div>
+                                <button class="modal__btn" id="modalbtn" type="button">
+                                    <img src="../../img/icons/cross.png">
+                                </button>
+                            </div>
+                        
+                            <button class="header__menu " id="modalOpen" type="button">
+                                <img class="header__menu-img" src="../../img/icons/menu.png">
+                            </button>
+                            <a href="cart.html" class="header__basket">
+                                <img class="header__basket-img" src="../../img/icons/cart.png">
+                            </a>
+                        </div>
                     </div>
                     <div class="header__navigation">
                         <div class="header__links">
-                            <a href="#" target="_self" class="header__link btn btn--chosen">
+                            <a href="../../index.html" target="_self" class="header__link btn">
                                 <p>
                                     Главная
                                 </p>
                             </a>
-                            <a href="../pages/about.html" class="header__link btn">
+                            <a href="../about.html" class="header__link btn">
                                 <p>
                                     О компании
                                 </p>
                             </a>
-                            <a href="../pages/products.html" class="header__link btn">
+                            <a href="../products.html" class="header__link btn">
                                 <p>
                                     Товары
                                 </p>
                             </a>
-                            <a href="../pages/about.html" class="header__link btn">
+                            <a href="../stores.html" class="header__link btn">
                                 <p>
                                     Магазины
                                 </p>
@@ -54,12 +98,12 @@
                         </div>
 
                         <div class="header__links">
-                            <a href="../pages/about.html" class="header__link btn">
+                            <a href="../contacts.html" class="header__link btn">
                                 <p>
                                     Контакты
                                 </p>
                             </a>
-                            <a href="../pages/about.html" class="header__link btn">
+                            <a href="../payment.html" class="header__link btn">
                                 <p>
                                     Оплата и доставка
                                 </p>
@@ -72,6 +116,828 @@
         </div>
     </header>
 
+    <main>
 
-    </body>
+        <div class="prod-info">
+            <div class="container">
+                <div class="prod-info__inner">
+                    <div class="prod-info__title">
+                        <h2> О товаре</h2>
+                    </div>
+                    <div class="prod-info__top">
+                        <div class="prod-info__slider">
+                            <div class="prod-info__content">
+                                <!-- Slider main container -->
+                                <div class="swiper-container swiper-container--main">
+                                <!-- Additional required wrapper -->
+                                <div class="swiper-wrapper">
+                                    <!-- Slides -->
+                                    <div class="swiper-slide">
+                                        <div class="prod-info__card">
+                                            <div>
+                                                <img src="../../img/image 3.webp" class="prod-info__img">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="prod-info__card">
+                                            <div>
+                                                <img src="../../img/image 3.webp" class="prod-info__img">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="prod-info__card">
+                                            <div>
+                                                <img src="../../img/5083ae87eaed85034ded6dd16028f6c4.jpg" class="prod-info__img">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="prod-info__card">
+                                            <div>
+                                                <img src="../../img/image 3.webp" class="prod-info__img">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="prod-info__card">
+                                            <di>
+                                                <img src="../../img/5083ae87eaed85034ded6dd16028f6c4.jpg" class="prod-info__img">
+                                            </di>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <!-- If we need pagination -->
+                                <div class="swiper-pagination">
+                                </div>
+
+                                <!-- If we need navigation buttons -->
+                                <div class="prod-info__btn-prev">
+                                    </div>
+                                <div class="prod-info__btn-next">
+                                    
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="prod-info__right">
+                            <h2>Мотоцикл!!!!! ого!!!!!!</h2>
+                            <p>Цвет: <span class="orange">Черный</span></p>
+                            <div class="prod-info__rigth-bottom">
+                                <div class="prod-info__price">
+                                    155 000 руб.
+                                </div>
+                                <button class="btn prod-info__btn">
+                                    В корзину
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="prod-info__info">
+                        <p>Regulmoto RM 125 создан для тех, кому нужен понятный, экономичный и удобный мотоцикл на каждый день. Он подойдет начинающим райдерам, городским пользователям, а также тем, кто ищет практичный транспорт для поездок на работу, учебу или по делам. Компактная посадка, умеренная мощность и предсказуемое управление делают RM 125 удачным выбором для уверенного старта и спокойной ежедневной эксплуатации.
+
+                            В основе модели — одноцилиндровый 4-тактный бензиновый двигатель объемом 125 см³ мощностью 10,8 л.с. Это надежная и простая в обслуживании схема, хорошо подходящая для дорожного мотоцикла такого класса. Воздушное охлаждение избавляет от лишней сложности в конструкции, а карбюраторная подача топлива обеспечивает понятную настройку и неприхотливость в эксплуатации. Мотор уверенно раскрывается в городском ритме, а максимальная скорость до 90 км/ч позволяет комфортно держаться в потоке.
+                            5-ступенчатая механическая коробка передач с классической схемой переключения 1-N-2-3-4-5 дает больше контроля над тягой и помогает точнее подбирать режим движения. Цепной привод на заднее колесо — проверенное решение, которое ценят за эффективность и ремонтопригодность. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="items">
+            <div class="container ">
+                <div class="items__inner">
+                    <div class="items__title">
+                        <h2 class="big-orange-text">
+                                Похожие:
+                        </h2>
+                    </div>
+                    <div class="items__content">
+                        <div class="items__card ">
+                            <div class="items__img">
+                                <img src="../../img/motorcycles/image 5.webp">
+                            </div>
+                            <h1 class="items__name">
+                                Мотоцикл Regulmoto RM 125
+                            </h1>
+                            <p class="items__price">
+                                        115 000 руб.
+                            </p>
+                            <a href="../../pages/product/Regulmoto-RM-125.html" class="items__btn btn btn--green">
+                                        Подробнее
+                            </a>
+                        </div>
+                        <div class="items__card">
+                            <div class="items__img">
+                                <img src="../../img/motorcycles/image 5.webp">
+                            </div>
+                            <h1 class="items__name">
+                                Мотоцикл Regulmoto RM 125
+                            </h1>
+                            <p class="items__price">
+                                        115 000 руб.
+                            </p>
+                            <a href="../../pages/product/Regulmoto-RM-125.html" class="items__btn btn btn--green">
+                                        Подробнее
+                            </a>
+                        </div>
+                        <div class="items__card">
+                            <div class="items__img">
+                                <img src="../../img/motorcycles/image 5.webp">
+                            </div>
+                            <h1 class="items__name">
+                                Мотоцикл Regulmoto RM 125
+                            </h1>
+                            <p class="items__price">
+                                        115 000 руб.
+                            </p>
+                            <a href="../../pages/product/Regulmoto-RM-125.html" class="items__btn btn btn--green">
+                                        Подробнее
+                            </a>
+                        </div>
+                        <div class="items__card">
+                            <div class="items__img">
+                                <img src="../../img/motorcycles/image 5.webp">
+                            </div>
+                            <h1 class="items__name">
+                                Мотоцикл Regulmoto RM 125
+                            </h1>
+                            <p class="items__price">
+                                        115 000 руб.
+                            </p>
+                            <a href="../../pages/product/Regulmoto-RM-125.html" class="items__btn btn btn--green">
+                                        Подробнее
+                            </a>
+                        </div>
+                        <div class="items__card">
+                            <div class="items__img">
+                                <img src="../../img/motorcycles/image 5.webp">
+                            </div>
+                            <h1 class="items__name">
+                                Мотоцикл Regulmoto RM 125
+                            </h1>
+                            <p class="items__price">
+                                        115 000 руб.
+                            </p>
+                            <a href="../../pages/product/Regulmoto-RM-125.html" class="items__btn btn btn--green">
+                                        Подробнее
+                            </a>
+                        </div>
+                        <div class="items__card">
+                            <div class="items__img">
+                                <img src="../../img/motorcycles/image 5.webp">
+                            </div>
+                            <h1 class="items__name">
+                                Мотоцикл Regulmoto RM 125
+                            </h1>
+                            <p class="items__price">
+                                        115 000 руб.
+                            </p>
+                            <a href="../../pages/product/Regulmoto-RM-125.html" class="items__btn btn btn--green">
+                                        Подробнее
+                            </a>
+                        </div>
+                        <div class="items__card">
+                            <div class="items__img">
+                                <img src="../../img/motorcycles/image 5.webp">
+                            </div>
+                            <h1 class="items__name">
+                                Мотоцикл Regulmoto RM 125
+                            </h1>
+                            <p class="items__price">
+                                        115 000 руб.
+                            </p>
+                            <a href="../../pages/product/Regulmoto-RM-125.html" class="items__btn btn btn--green">
+                                        Подробнее
+                            </a>
+                        </div>
+                        <div class="items__card">
+                            <div class="items__img">
+                                <img src="../../img/motorcycles/image 5.webp">
+                            </div>
+                            <h1 class="items__name">
+                                Мотоцикл Regulmoto RM 125
+                            </h1>
+                            <p class="items__price">
+                                        115 000 руб.
+                            </p>
+                            <a href="../../pages/product/Regulmoto-RM-125.html" class="items__btn btn btn--green">
+                                        Подробнее
+                            </a>
+                        </div>
+                        <div class="items__card">
+                            <div class="items__img">
+                                <img src="../../img/motorcycles/image 5.webp">
+                            </div>
+                            <h1 class="items__name">
+                                Мотоцикл Regulmoto RM 125
+                            </h1>
+                            <p class="items__price">
+                                        115 000 руб.
+                            </p>
+                            <a href="../../pages/product/Regulmoto-RM-125.html" class="items__btn btn btn--green">
+                                        Подробнее
+                            </a>
+                        </div>
+                        <div class="items__card">
+                            <div class="items__img">
+                                <img src="../../img/motorcycles/image 5.webp">
+                            </div>
+                            <h1 class="items__name">
+                                Мотоцикл Regulmoto RM 125
+                            </h1>
+                            <p class="items__price">
+                                        115 000 руб.
+                            </p>
+                            <a href="../../pages/product/Regulmoto-RM-125.html" class="items__btn btn btn--green">
+                                        Подробнее
+                            </a>
+                        </div>
+                        <div class="items__card">
+                            <div class="items__img">
+                                <img src="../../img/motorcycles/image 5.webp">
+                            </div>
+                            <h1 class="items__name">
+                                Мотоцикл Regulmoto RM 125
+                            </h1>
+                            <p class="items__price">
+                                        115 000 руб.
+                            </p>
+                            <a href="../../pages/product/Regulmoto-RM-125.html" class="items__btn btn btn--green">
+                                        Подробнее
+                            </a>
+                        </div>
+                        <div class="items__card">
+                            <div class="items__img">
+                                <img src="../../img/motorcycles/image 5.webp">
+                            </div>
+                            <h1 class="items__name">
+                                Мотоцикл Regulmoto RM 125
+                            </h1>
+                            <p class="items__price">
+                                        115 000 руб.
+                            </p>
+                            <a href="../../pages/product/Regulmoto-RM-125.html" class="items__btn btn btn--green">
+                                        Подробнее
+                            </a>
+                        </div>
+                                                <div class="items__card">
+                            <div class="items__img">
+                                <img src="../../img/motorcycles/image 5.webp">
+                            </div>
+                            <h1 class="items__name">
+                                Мотоцикл Regulmoto RM 125
+                            </h1>
+                            <p class="items__price">
+                                        115 000 руб.
+                            </p>
+                            <a href="../../pages/product/Regulmoto-RM-125.html" class="items__btn btn btn--green">
+                                        Подробнее
+                            </a>
+                        </div>
+                        <div class="items__card">
+                            <div class="items__img">
+                                <img src="../../img/motorcycles/image 5.webp">
+                            </div>
+                            <h1 class="items__name">
+                                Мотоцикл Regulmoto RM 125
+                            </h1>
+                            <p class="items__price">
+                                        115 000 руб.
+                            </p>
+                            <a href="../../pages/product/Regulmoto-RM-125.html" class="items__btn btn btn--green">
+                                        Подробнее
+                            </a>
+                        </div>
+                        <div class="items__card">
+                            <div class="items__img">
+                                <img src="../../img/motorcycles/image 5.webp">
+                            </div>
+                            <h1 class="items__name">
+                                Мотоцикл Regulmoto RM 125
+                            </h1>
+                            <p class="items__price">
+                                        115 000 руб.
+                            </p>
+                            <a href="../../pages/product/Regulmoto-RM-125.html" class="items__btn btn btn--green">
+                                        Подробнее
+                            </a>
+                        </div>
+                        <div class="items__card">
+                            <div class="items__img">
+                                <img src="../../img/motorcycles/image 5.webp">
+                            </div>
+                            <h1 class="items__name">
+                                Мотоцикл Regulmoto RM 125
+                            </h1>
+                            <p class="items__price">
+                                        115 000 руб.
+                            </p>
+                            <a href="../../pages/product/Regulmoto-RM-125.html" class="items__btn btn btn--green">
+                                        Подробнее
+                            </a>
+                        </div>
+                                                <div class="items__card">
+                            <div class="items__img">
+                                <img src="../../img/motorcycles/image 5.webp">
+                            </div>
+                            <h1 class="items__name">
+                                Мотоцикл Regulmoto RM 125
+                            </h1>
+                            <p class="items__price">
+                                        115 000 руб.
+                            </p>
+                            <a href="../../pages/product/Regulmoto-RM-125.html" class="items__btn btn btn--green">
+                                        Подробнее
+                            </a>
+                        </div>
+                        <div class="items__card">
+                            <div class="items__img">
+                                <img src="../../img/motorcycles/image 5.webp">
+                            </div>
+                            <h1 class="items__name">
+                                Мотоцикл Regulmoto RM 125
+                            </h1>
+                            <p class="items__price">
+                                        115 000 руб.
+                            </p>
+                            <a href="../../pages/product/Regulmoto-RM-125.html" class="items__btn btn btn--green">
+                                        Подробнее
+                            </a>
+                        </div>
+                        <div class="items__card">
+                            <div class="items__img">
+                                <img src="../../img/motorcycles/image 5.webp">
+                            </div>
+                            <h1 class="items__name">
+                                Мотоцикл Regulmoto RM 125
+                            </h1>
+                            <p class="items__price">
+                                        115 000 руб.
+                            </p>
+                            <a href="../../pages/product/Regulmoto-RM-125.html" class="items__btn btn btn--green">
+                                        Подробнее
+                            </a>
+                        </div>
+                        <div class="items__card">
+                            <div class="items__img">
+                                <img src="../../img/motorcycles/image 5.webp">
+                            </div>
+                            <h1 class="items__name">
+                                Мотоцикл Regulmoto RM 125
+                            </h1>
+                            <p class="items__price">
+                                        115 000 руб.
+                            </p>
+                            <a href="../../pages/product/Regulmoto-RM-125.html" class="items__btn btn btn--green">
+                                        Подробнее
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="hits">
+            <div class="container">
+                <div class="hits__inner">
+                    <div class="hits__title">
+                        <h2 class="big-orange-text">
+                            Хиты
+                        </h2>
+                        <img src="../../img/icons/burn.png" class="hits__icon">
+                    </div>
+                    <div class="hits__slider">
+                        <!-- Slider main container -->
+                        <div class="swiper-container swiper-container--hits">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide">
+                                <div class="hits__card">
+                                    <div class="hits__img-inner">
+                                         <img src="../../img/5083ae87eaed85034ded6dd16028f6c4.jpg" class="hits__img">
+                                    </div>
+                                    <div class="hits__content">
+                                        <h2 class="hits__content-title">
+                                            RACER RC250GY-C2K K2
+                                        </h2>
+                                        <p class="p p-small">
+                                            Кроссовый эндуро
+                                        </p>
+                                        <p class="p">
+                                            Новинка 2023 года от Racer. Этот мотоцикл уже нельзя назвать классическим поселковым эндуро, это уже более эндуро - более легкий, с менее широкой сидушкой, менее вместительным баком, но все так же по доступной цене.
+                                        </p>
+                                        <div class="hits__content-bottom">
+                                            <p class="hits__price">
+                                            5 000 руб.
+                                            </p>
+                                            <a class="btn btn--green">
+                                                Подробнее
+                                            </a>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="hits__card">
+                                    <div class="hits__img-inner">
+                                         <img src="../../img/1200x900.webp" class="hits__img">
+                                    </div>
+                                    <div class="hits__content">
+                                        <h2 class="hits__content-title">
+                                            SHARMAX E-GP501
+                                        </h2>
+                                        <p class="p p-small">
+                                            Спортбайк
+                                        </p>
+                                        <p class="p">
+                                            Sharmax Motors E-GP501 Ultra придётся по душе тем, кто заботится об окружающей среде и следит за экологической обстановкой.
+                                        </p>
+                                        <div class="hits__content-bottom">
+                                            <p class="hits__price">
+                                            500 000 руб.
+                                            </p>
+                                            <a class="btn btn--green">
+                                                Подробнее
+                                            </a>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="hits__card">
+                                    <div class="hits__img-inner">
+                                         <img src="../../img/5083ae87eaed85034ded6dd16028f6c4.jpg" class="hits__img">
+                                    </div>
+                                    <div class="hits__content">
+                                        <h2 class="hits__content-title">
+                                            RACER RC250GY-C2K K2
+                                        </h2>
+                                        <p class="p p-small">
+                                            Кроссовый эндуро
+                                        </p>
+                                        <p class="p">
+                                            Новинка 2023 года от Racer. Этот мотоцикл уже нельзя назвать классическим поселковым эндуро, это уже более эндуро - более легкий, с менее широкой сидушкой, менее вместительным баком, но все так же по доступной цене.
+                                        </p>
+                                        <div class="hits__content-bottom">
+                                            <p class="hits__price">
+                                            5 000 руб.
+                                            </p>
+                                            <a class="btn btn--green">
+                                                Подробнее
+                                            </a>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <!-- If we need pagination -->
+                        <div class="swiper-pagination">
+                        </div>
+
+                        <!-- If we need navigation buttons -->
+                        <div class="hits__btn-prev">
+                            <button class="hits__btn hits__btn--left">
+                                <img class="hits__btn-arrow" src="../../img/left-arrow-ochre.svg">
+                            </button></div>
+                        <div class="hits__btn-next">
+                            <button class="hits__btn hits__btn--right">
+                                <img class="hits__btn-arrow" src="../../img/right-arrow-ochre.svg">
+                            </button>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="items">
+            <div class="container ">
+                <div class="items__inner">
+                    <div class="items__title">
+                        <h2 class="big-orange-text">
+                                Больше товаров:
+                        </h2>
+                    </div>
+                    <div class="items__content">
+                        <div class="items__card ">
+                            <div class="items__img">
+                                <img src="../../img/motorcycles/image 5.webp">
+                            </div>
+                            <h1 class="items__name">
+                                Мотоцикл Regulmoto RM 125
+                            </h1>
+                            <p class="items__price">
+                                        115 000 руб.
+                            </p>
+                            <a href="../../pages/product/Regulmoto-RM-125.html" class="items__btn btn btn--green">
+                                        Подробнее
+                            </a>
+                        </div>
+                        <div class="items__card">
+                            <div class="items__img">
+                                <img src="../../img/motorcycles/image 5.webp">
+                            </div>
+                            <h1 class="items__name">
+                                Мотоцикл Regulmoto RM 125
+                            </h1>
+                            <p class="items__price">
+                                        115 000 руб.
+                            </p>
+                            <a href="../../pages/product/Regulmoto-RM-125.html" class="items__btn btn btn--green">
+                                        Подробнее
+                            </a>
+                        </div>
+                        <div class="items__card">
+                            <div class="items__img">
+                                <img src="../../img/motorcycles/image 5.webp">
+                            </div>
+                            <h1 class="items__name">
+                                Мотоцикл Regulmoto RM 125
+                            </h1>
+                            <p class="items__price">
+                                        115 000 руб.
+                            </p>
+                            <a href="../../pages/product/Regulmoto-RM-125.html" class="items__btn btn btn--green">
+                                        Подробнее
+                            </a>
+                        </div>
+                        <div class="items__card">
+                            <div class="items__img">
+                                <img src="../../img/motorcycles/image 5.webp">
+                            </div>
+                            <h1 class="items__name">
+                                Мотоцикл Regulmoto RM 125
+                            </h1>
+                            <p class="items__price">
+                                        115 000 руб.
+                            </p>
+                            <a href="../../pages/product/Regulmoto-RM-125.html" class="items__btn btn btn--green">
+                                        Подробнее
+                            </a>
+                        </div>
+                        <div class="items__card">
+                            <div class="items__img">
+                                <img src="../../img/motorcycles/image 5.webp">
+                            </div>
+                            <h1 class="items__name">
+                                Мотоцикл Regulmoto RM 125
+                            </h1>
+                            <p class="items__price">
+                                        115 000 руб.
+                            </p>
+                            <a href="../../pages/product/Regulmoto-RM-125.html" class="items__btn btn btn--green">
+                                        Подробнее
+                            </a>
+                        </div>
+                        <div class="items__card">
+                            <div class="items__img">
+                                <img src="../../img/motorcycles/image 5.webp">
+                            </div>
+                            <h1 class="items__name">
+                                Мотоцикл Regulmoto RM 125
+                            </h1>
+                            <p class="items__price">
+                                        115 000 руб.
+                            </p>
+                            <a href="../../pages/product/Regulmoto-RM-125.html" class="items__btn btn btn--green">
+                                        Подробнее
+                            </a>
+                        </div>
+                        <div class="items__card">
+                            <div class="items__img">
+                                <img src="../../img/motorcycles/image 5.webp">
+                            </div>
+                            <h1 class="items__name">
+                                Мотоцикл Regulmoto RM 125
+                            </h1>
+                            <p class="items__price">
+                                        115 000 руб.
+                            </p>
+                            <a href="../../pages/product/Regulmoto-RM-125.html" class="items__btn btn btn--green">
+                                        Подробнее
+                            </a>
+                        </div>
+                        <div class="items__card">
+                            <div class="items__img">
+                                <img src="../../img/motorcycles/image 5.webp">
+                            </div>
+                            <h1 class="items__name">
+                                Мотоцикл Regulmoto RM 125
+                            </h1>
+                            <p class="items__price">
+                                        115 000 руб.
+                            </p>
+                            <a href="../../pages/product/Regulmoto-RM-125.html" class="items__btn btn btn--green">
+                                        Подробнее
+                            </a>
+                        </div>
+                        <div class="items__card">
+                            <div class="items__img">
+                                <img src="../../img/motorcycles/image 5.webp">
+                            </div>
+                            <h1 class="items__name">
+                                Мотоцикл Regulmoto RM 125
+                            </h1>
+                            <p class="items__price">
+                                        115 000 руб.
+                            </p>
+                            <a href="../../pages/product/Regulmoto-RM-125.html" class="items__btn btn btn--green">
+                                        Подробнее
+                            </a>
+                        </div>
+                        <div class="items__card">
+                            <div class="items__img">
+                                <img src="../../img/motorcycles/image 5.webp">
+                            </div>
+                            <h1 class="items__name">
+                                Мотоцикл Regulmoto RM 125
+                            </h1>
+                            <p class="items__price">
+                                        115 000 руб.
+                            </p>
+                            <a href="../../pages/product/Regulmoto-RM-125.html" class="items__btn btn btn--green">
+                                        Подробнее
+                            </a>
+                        </div>
+                        <div class="items__card">
+                            <div class="items__img">
+                                <img src="../../img/motorcycles/image 5.webp">
+                            </div>
+                            <h1 class="items__name">
+                                Мотоцикл Regulmoto RM 125
+                            </h1>
+                            <p class="items__price">
+                                        115 000 руб.
+                            </p>
+                            <a href="../../pages/product/Regulmoto-RM-125.html" class="items__btn btn btn--green">
+                                        Подробнее
+                            </a>
+                        </div>
+                        <div class="items__card">
+                            <div class="items__img">
+                                <img src="../../img/motorcycles/image 5.webp">
+                            </div>
+                            <h1 class="items__name">
+                                Мотоцикл Regulmoto RM 125
+                            </h1>
+                            <p class="items__price">
+                                        115 000 руб.
+                            </p>
+                            <a href="../../pages/product/Regulmoto-RM-125.html" class="items__btn btn btn--green">
+                                        Подробнее
+                            </a>
+                        </div>
+                                                <div class="items__card">
+                            <div class="items__img">
+                                <img src="../../img/motorcycles/image 5.webp">
+                            </div>
+                            <h1 class="items__name">
+                                Мотоцикл Regulmoto RM 125
+                            </h1>
+                            <p class="items__price">
+                                        115 000 руб.
+                            </p>
+                            <a href="../../pages/product/Regulmoto-RM-125.html" class="items__btn btn btn--green">
+                                        Подробнее
+                            </a>
+                        </div>
+                        <div class="items__card">
+                            <div class="items__img">
+                                <img src="../../img/motorcycles/image 5.webp">
+                            </div>
+                            <h1 class="items__name">
+                                Мотоцикл Regulmoto RM 125
+                            </h1>
+                            <p class="items__price">
+                                        115 000 руб.
+                            </p>
+                            <a href="../../pages/product/Regulmoto-RM-125.html" class="items__btn btn btn--green">
+                                        Подробнее
+                            </a>
+                        </div>
+                        <div class="items__card">
+                            <div class="items__img">
+                                <img src="../../img/motorcycles/image 5.webp">
+                            </div>
+                            <h1 class="items__name">
+                                Мотоцикл Regulmoto RM 125
+                            </h1>
+                            <p class="items__price">
+                                        115 000 руб.
+                            </p>
+                            <a href="../../pages/product/Regulmoto-RM-125.html" class="items__btn btn btn--green">
+                                        Подробнее
+                            </a>
+                        </div>
+                        <div class="items__card">
+                            <div class="items__img">
+                                <img src="../../img/motorcycles/image 5.webp">
+                            </div>
+                            <h1 class="items__name">
+                                Мотоцикл Regulmoto RM 125
+                            </h1>
+                            <p class="items__price">
+                                        115 000 руб.
+                            </p>
+                            <a href="../../pages/product/Regulmoto-RM-125.html" class="items__btn btn btn--green">
+                                        Подробнее
+                            </a>
+                        </div>
+                                                <div class="items__card">
+                            <div class="items__img">
+                                <img src="../../img/motorcycles/image 5.webp">
+                            </div>
+                            <h1 class="items__name">
+                                Мотоцикл Regulmoto RM 125
+                            </h1>
+                            <p class="items__price">
+                                        115 000 руб.
+                            </p>
+                            <a href="../../pages/product/Regulmoto-RM-125.html" class="items__btn btn btn--green">
+                                        Подробнее
+                            </a>
+                        </div>
+                        <div class="items__card">
+                            <div class="items__img">
+                                <img src="../../img/motorcycles/image 5.webp">
+                            </div>
+                            <h1 class="items__name">
+                                Мотоцикл Regulmoto RM 125
+                            </h1>
+                            <p class="items__price">
+                                        115 000 руб.
+                            </p>
+                            <a href="../../pages/product/Regulmoto-RM-125.html" class="items__btn btn btn--green">
+                                        Подробнее
+                            </a>
+                        </div>
+                        <div class="items__card">
+                            <div class="items__img">
+                                <img src="../../img/motorcycles/image 5.webp">
+                            </div>
+                            <h1 class="items__name">
+                                Мотоцикл Regulmoto RM 125
+                            </h1>
+                            <p class="items__price">
+                                        115 000 руб.
+                            </p>
+                            <a href="../../pages/product/Regulmoto-RM-125.html" class="items__btn btn btn--green">
+                                        Подробнее
+                            </a>
+                        </div>
+                        <div class="items__card">
+                            <div class="items__img">
+                                <img src="../../img/motorcycles/image 5.webp">
+                            </div>
+                            <h1 class="items__name">
+                                Мотоцикл Regulmoto RM 125
+                            </h1>
+                            <p class="items__price">
+                                        115 000 руб.
+                            </p>
+                            <a href="../../pages/product/Regulmoto-RM-125.html" class="items__btn btn btn--green">
+                                        Подробнее
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+
+    <footer>
+        <div class="container container-less-pedding">
+            <div class="footer__inner">
+                <div class="footer__info">
+                    <p class="footer__info-logo">
+                        HotRoad
+                    </p>
+                    <p class="footer__info-text">
+                        © 2026 Интернет-магазин мототехники.
+                    </p>
+                </div>
+                <div class="footer__task">
+                    <a href="отчет(сейв 2).docx" class="footer__link">
+                        отчёт
+                    </a>
+                </div>
+                <div class="footer__logo">
+                    <img src="../../img/logo/logo-white-2.png" class="footer__logo">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="../../js/index.js"></script>
+</body>
 </html>
